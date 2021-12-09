@@ -1,0 +1,102 @@
+.location_image img{
+    width: 114rem;
+    height: 40rem;
+    position: relative;
+    
+}
+.back_page {
+    background-color: black;
+    border: none;
+    color: white;
+   z-index: 99999;
+   left: 0;
+   top: 100px;
+    text-align: center;
+   position: absolute;
+    display: inline-block;
+    font-size: 26px;
+  }
+  .main{
+    background-color: black;
+    width: 114rem;
+    float: left;
+    height: 20rem;
+   
+    color: white;
+  }
+  footer{
+      background-color:palevioletred;
+    width: 100%;
+    height: 15rem;
+}
+
+.text{
+    color: white;
+   font-size: 1.8rem;
+   padding-left: 10rem;
+}
+.Art_Gallery_Image_Text2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: white
+    text-align:center;
+}
+.icons img{
+    width: 10rem;
+    height: 40px;
+    margin-left: 70rem;
+}
+
+@media screen (min-width: 768px  max-width: 1024px)
+    {
+        .location_image img{
+            width: 114rem;
+            height: 40rem;
+            position: relative;
+            
+        }
+        .back_page {
+            background-color: black;
+            border: none;
+            color: white;
+           z-index: 99999;
+           left: 0;
+           top: 100px;
+            text-align: center;
+           position: absolute;
+            display: inline-block;
+            font-size: 26px;
+          }
+          .main{
+            background-color: black;
+            width: 150rem;
+            float: left;
+            height: 20rem;
+           
+            color: white;
+          }
+          .Footer3{
+            background-color: rgb(13, 14, 13);
+            width: 100%;
+            height: 15rem;
+        }
+        
+        .text{
+            color: rgb(20, 216, 223);
+           font-size: 1.8rem;
+           padding-left: 10rem;
+        }
+        .Art_Gallery_Image_Text2{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1rem;
+            color: grey;
+            text-align: center;
+        }
+        .icons img{
+            width: 10rem;
+            height: 40px;
+            margin-left: 70rem;
+        }
+      
+            
+        

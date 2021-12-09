@@ -1,0 +1,233 @@
+
+#left_color{
+    background-color: black;
+    width: 23.33%;
+    float: left;
+    height: 40rem;
+    flex-wrap: wrap;
+}
+.Art_Gallery h1{
+    color: white;
+    font-size: 4.2rem;
+    padding-left: 4rem;
+    
+}
+.Art_Gallery p{
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 25%;
+}
+
+.Art_Gallery_Image{
+    height: 40rem;
+  display: flex;
+    width: 23.33%;
+    
+   position: relative;
+}
+.Art_Gallery_Image_Text{
+   position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: grey;
+    
+    margin-left: 32em;
+}
+.Main_art2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 60%;
+    padding-top: 50px;
+    margin: auto;
+    grid-gap: 0.5rem;
+}
+.Main_art2 img{
+    width: 100%;
+}
+.left_text{
+    font-size: 1.5rem;
+ 
+}
+.Art_text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: grey;
+}
+.Art_Gallery_Image3{
+    grid-row: 2/6;
+}
+.Art_Gallery_Image3 img{
+    height: 100%;
+}
+.Art_Gallery_Image4{
+    grid-row: 2/4;
+    grid-column: 2/3;
+}
+.Art_Gallery_Image5{
+    background-color: black;
+    width: 100.33%;
+    float: left;
+    height: 20rem;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+   
+}
+.Art_Gallery_Image5_Text{
+color: white;
+text-align: center;
+font-size: 1rem;
+color: grey;
+}
+.Footer{
+    background-color: black;
+    width: 100%;
+    height: 15rem;
+}
+.text{
+    color: white;
+   font-size: 1.8rem;
+   padding-left: 10rem;
+}
+.Art_Gallery_Image_Text2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: grey;
+    text-align: center;
+}
+.icons img{
+    width: 10rem;
+    height: 40px;
+    margin-left: 70rem;
+}
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+   
+    display: inline-block;
+    font-size: 26px;
+  }
+
+  @media screen (min-width: 360px  max-width: 640px)
+{
+
+
+#left_color{
+    background-color: black;
+    width: 23.33%;
+    float: left;
+    height: 40rem;
+    flex-wrap: wrap;
+}
+.Art_Gallery h1{
+    color: white;
+    font-size: 4.2rem;
+    padding-left: 4rem;
+    
+}
+.Art_Gallery p{
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 25%;
+}
+
+.Art_Gallery_Image{
+    height: 40rem;
+  display: flex;
+    width: 23.33%;
+    
+   position: relative;
+}
+.Art_Gallery_Image_Text{
+   position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: grey;
+    
+    margin-left: 32em;
+}
+.Main_art2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 60%;
+    padding-top: 50px;
+    margin: auto;
+    grid-gap: 0.5rem;
+}
+.Main_art2 img{
+    width: 100%;
+}
+.left_text{
+    font-size: 1.5rem;
+ 
+}
+.Art_text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: grey;
+}
+.Art_Gallery_Image3{
+    grid-row: 2/6;
+}
+.Art_Gallery_Image3 img{
+    height: 100%;
+}
+.Art_Gallery_Image4{
+    grid-row: 2/4;
+    grid-column: 2/3;
+}
+.Art_Gallery_Image5{
+    background-color: black;
+    width: 100.33%;
+    float: left;
+    height: 20rem;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+   
+}
+.Art_Gallery_Image5_Text{
+color: white;
+text-align: center;
+font-size: 1rem;
+color: grey;
+}
+.Footer{
+    background-color: black;
+    width: 100%;
+    height: 15rem;
+}
+.text{
+    color: white;
+   font-size: 1.8rem;
+   padding-left: 10rem;
+}
+.Art_Gallery_Image_Text2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: grey;
+    text-align: center;
+}
+.icons img{
+    width: 10rem;
+    height: 40px;
+    margin-left: 70rem;
+}
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+   
+    display: inline-block;
+    font-size: 26px;
+  }
+}
